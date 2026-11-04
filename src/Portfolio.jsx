@@ -144,6 +144,18 @@ export default function Portfolio(){
 const css = `
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap");
 
+html, body, #root {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 100vh;
+  display: block !important;
+  text-align: left !important;
+}
+html:has(.pf.dark), body:has(.pf.dark) { background: #101a2b !important; }
+html:has(.pf:not(.dark)), body:has(.pf:not(.dark)) { background: #eaf0f6 !important; }
+
 .pf{--bg:#eaf0f6; --surface:#fff; --ink:#12233a; --muted:#566781; --line:#d3dce7; --accent:#2f5bff; --sun:#ffd24a; --shadow:0 18px 40px -18px rgba(18,35,58,.28);
   background:radial-gradient(900px 500px at 85% -5%, rgba(47,91,255,.14), transparent 60%), var(--bg);
   color:var(--ink); font-family:"Instrument Sans",system-ui,sans-serif; line-height:1.6; min-height:100vh; scroll-behavior:smooth; transition:background .3s,color .3s}

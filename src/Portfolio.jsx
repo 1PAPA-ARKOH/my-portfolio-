@@ -19,10 +19,10 @@ const PROFILE = {
 
 const PROJECTS = [
   { title: "Water Shop POS", type: "App", year: "2026", stack: "Visual Basic", blurb: "Point-of-sale and inventory system with instant product search.", c1: "#2f5bff", c2: "#7ad7ff" },
-  { title: "School Examination System", type: "Web", year: "2026", stack: "HTML, CSS, Javascript", blurb: "Built a school examination system with the ideology of making examination processes easier and simple.", c1: "#ff7a59", c2: "#ffd24a" },
+  { title: "School Examination System", type: "Web", year: "2026", stack: "HTML, CSS, Javascript", blurb: "Built an examination management system enables schools and organisations to conduct, monitor, and assess exams digitally, reducing manual work while ensuring a seamless experience for administrators and students.", c1: "#ff7a59", c2: "#ffd24a" },
   { title: "Portfolio Site", type: "Web", year: "2026", stack: "React", blurb: "This site, built to grow with every project I ship.", c1: "#7a4dff", c2: "#ff8ad8" },
-  { title: "Hotel Reservation system", type: "App", year: "2026", stack: "Visual Basic", blurb: "Built a hotel reservation system that aids receptionist in booking and reserving rooms for customers.", c1: "#13b884", c2: "#b6f06a" },
-  {title: "Java Chatbox system", type: " App", year: "2026", stack:"Java", blurb: "Built a java chatbox that aids users to book a date to visit a museum by asking them with some questions regarding the time and date they want to visit and saving their date.", c1: "#2ecf9c", c2: "#9eed35" }
+  { title: "Hotel Reservation system", type: "App", year: "2026", stack: "Visual Basic", blurb: "Developed using Visual Basic, this system simplifies daily hotel management by automating bookings, guest records, payments, and room management, reducing administrative workload and improving service delivery.", c1: "#13b884", c2: "#b6f06a" },
+  {title: "Java Chatbox system", type: " App", year: "2026", stack:"Java", blurb: "An intelligent Java-based chatbot designed to enhance visitor engagement by collecting preferred visit dates and times, automatically recording bookings, and simplifying appointment scheduling for museum management.", c1: "#2ecf9c", c2: "#9eed35" }
 ];
 
 const SKILLS = {

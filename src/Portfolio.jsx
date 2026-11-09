@@ -11,7 +11,8 @@ const PROFILE = {
     links : [
         {label: "Github", href: "https://github.com/1PAPA-ARKOH"},
         {label: "LinkedIn", href: "https://www.linkedin.com/in/papa-arkoh-mensah-bb3564251?utm_source=share_via&utm_content=profile&utm_medium=member_ios"},
-        {label: "Instagram", href: "https://instagram.com/donbillss_"}
+        {label: "Instagram", href: "https://instagram.com/donbillss_"},
+        {label: "Snapchat", href: "https://snapchat.com/don_billss"}
     ],
 
     chips: ["React", "Python", "HTML, CSS & Javascript" ]
